@@ -1,0 +1,12 @@
+body {
+    text-align:center;
+    font-size:15.5vmin;
+    font-family:courier,monospace;
+    background-color:beige;
+}
+
+div{    
+    font-size:7.75vmin;
+    height:15.5vmin;
+    font-weight:bolder;
+}

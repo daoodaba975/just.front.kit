@@ -1,0 +1,20 @@
+body {
+	 background: linear-gradient(-65deg, #ff7d55, #f55090, #41cdff, #5fffd9);
+	 display: flex;
+	 align-items: center;
+	 justify-content: center;
+	 flex-direction: column;
+	 color: #fff;
+	 font-weight: 400;
+	 font-size: 2em;
+	 background-size: 700% 700%;
+	 text-shadow: 2px 2px 2px rgb(0,0,0,0.6);
+	 animation: gradient 10s ease infinite;
+	 text-align: center;
+}
+
+@keyframes gradient {
+	 0% { background-position: 0% 50%; }
+	 50% { background-position: 100% 50%; }
+	 100% { background-position: 0% 50%; }
+}

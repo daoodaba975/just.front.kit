@@ -1,0 +1,10 @@
+body {
+	 margin: 0;
+	 bottom: 0;
+	 height: 100vh;
+	 overflow: hidden;
+}
+#particles-js {
+	 height: 100%;
+	 background: #262626;
+}

@@ -1,0 +1,37 @@
+#loader {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0; left: 0;
+    display: flex;
+    
+    background-color: #111;
+}
+
+#loader > span {
+    margin: auto;
+    font-family: monospace;
+    font-size: 5vmin;
+    color: silver;
+    text-shadow: 0 0 1px white;
+}
+
+#loader > div {
+    width: 75vmin;
+    height: 75vmin;
+    position: fixed;
+    left: 50vw;
+    top: 50vh;
+    margin: -37.5vmin;
+    
+    border: 10vmin solid black;
+    border-radius: 50%;
+    box-sizing: border-box;
+    
+    animation: wave 2s infinite ease-out;
+}
+
+@keyframes wave {
+    from { border: 37.5vmin solid transparent }
+    to   { border: 0 solid silver }
+}

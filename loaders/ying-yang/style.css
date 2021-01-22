@@ -1,0 +1,54 @@
+body {
+	 background-color: #cceeff;
+	 margin: 0px;
+	 padding: 0px;
+}
+.half1 {
+	 background-color: black;
+	 height: 250px;
+	 width: 250px;
+	 border-radius: 50%;
+	 position: absolute;
+	 top: 35%;
+	 left: 40%;
+	 animation: spin 1s infinite;
+}
+@keyframes spin {
+	 100% {
+	 	 transform: rotate(360deg);
+	 }
+}
+.half2 {
+	 background-color: white;
+	 height: 250px;
+	 width: 125px;
+	 border-radius: 125px 0px 0px 125px;
+}
+.c1, .c2 {
+	 height: 125px;
+	 width: 125px;
+	 border-radius: 50%;
+	 position: relative;
+	 bottom: 250px;
+	 left: 60px;
+}
+.c1 {
+	 background-color: black;
+}
+.c2 {
+	 background-color: white;
+}
+.dot1, .dot2 {
+	 height: 60px;
+	 width: 60px;
+	 border-radius: 50px;
+	 position: relative;
+	 top: 30px;
+	 left: 30px;
+}
+.dot1 {
+	 background-color: white;
+}
+.dot2 {
+	 background-color: black;
+}
