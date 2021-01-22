@@ -17,6 +17,6 @@ I'am always avaible on **[Twitter](https://twitter.com/daoodaba975)** 🐦 to di
 
 #### License 🎫
 
-📌 This code is released under the **[MIT License](LICENSE.md)** ✔
+📌 This code is released under the **[MIT License](LICENSE)** ✔
 
 > **Enjoy!** 🙏🏾
