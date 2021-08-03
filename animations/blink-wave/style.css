@@ -1,0 +1,22 @@
+body {
+    background-color: darkslategrey;
+    font-family: 'Press Start 2P', cursive;
+}
+h1 {
+    font-size: 5em;
+    text-transform: uppercase;
+    background: linear-gradient(to right, #5433ff, #20bdff, #a5fecb);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: clip 1.5s linear infinite;
+}
+@keyframes clip {
+    to {
+        background-position: 200% center;
+    }
+}
