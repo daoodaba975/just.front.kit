@@ -2,6 +2,8 @@
 
 This is a large collections of some basics frontend components crafted with HTML, CSS & JavaScript only, ready to be used 🛠
 
+[![Made-In-Senegal](https://github.com/GalsenDev221/made.in.senegal/blob/master/assets/badge.svg)](https://github.com/GalsenDev221/made.in.senegal)
+
 ## Contributing 🌍
 
 If you want to contribute, feel free to Fork this repo and help out on this project.  
